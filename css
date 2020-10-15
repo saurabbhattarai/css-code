@@ -1,0 +1,92 @@
+body{
+    background-color: aqua;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/55f85719e4b0c432ff757dca/1442358079426-S2L6ZUSNISVIBWKP1YSV/ke17ZwdGBToddI8pDm48kDu-OvKe9-yMBj32JSWknrt7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UZNNUmsixw3l8iPy3vgDTPMwfMBbaTJA8uE3oWp8JUwqzkQXHaRS3Yhvu0vV6Jt1AA/Best-Website-Background-Images3.jpg?format=2500w);
+    background-repeat: repeat;
+}
+
+.img01{
+    height : 600px;
+    width : 600px;  
+    margin: auto auto ;
+    display : block;  
+    border : 10px solid yellowgreen;
+    border-radius: 20%; 
+    transition: transform .4s; 
+}  
+
+.img01:hover {
+    transform : scale(1.3);  
+ }
+
+.img02 , .img03 , .img04 , .img05, .img06 , .img07 , .img08 , .img09 , .img10{
+    height : 600px;
+    width : 550px;  
+    margin: auto auto;
+    margin-bottom: 40px;
+    display : block;  
+    border : 10px solid yellowgreen;
+    border-radius: 20%; 
+    transition: transform .4s; 
+
+}  
+
+.img02:hover , .img03:hover , .img04:hover , .img05:hover , .img06:hover , .img07:hover , .img08:hover , .img09:hover , .img10:hover  {
+    transform : scale(1.3);  
+ }
+
+.main-para {
+    color : whitesmoke;
+    display:block; 
+    padding : 100px 600px ; 
+    font-family:"sofia" ;
+    font-family: sans-serif; 
+}  
+
+.main-para :hover { 
+    font-family: 'Cedarville Cursive', cursive; 
+
+}
+
+.posts-container{
+    display: flex; 
+    flex-direction:row; 
+
+}   
+
+.posts-container div {
+    border: 1px solid red; 
+    padding : 20px ;  
+    background-color: turquoise;  
+    font-family: "sofia";
+
+    /* flex-direction: column; */ 
+}  
+
+.posts-container div:hover {
+    background-color: violet;
+}
+
+.para-1 , .para-2 {
+    border: 3px solid violet;
+    border-radius: 30px ; 
+    margin-top: 20px;
+    margin-bottom: 20px;     
+    text-align: center; 
+    background-color: seashell; 
+     font-family: 'Cedarville Cursive', cursive;
+     cursor: pointer;
+     font-weight: bolder;
+     font-size: large;
+}  
+
+.para-1:hover {
+    background-color: rgb(72, 11, 112)
+}
+
+
+
+
+
+
+
+
